@@ -1,0 +1,28 @@
+<h1>Hello There!</h1>
+<br/>
+<p1>No. of words in text you entered was :- </p1>
+
+{{no}}
+<br/>
+<br/>
+<p1>The original text is : - </p1>
+{{text}}
+
+<br/>
+<br/>
+
+<p1>The frequencies are : - </p1>
+<br/>
+<br/>
+
+<h2>
+{%for word,count in lst%}
+{{word}}:{{count}}
+<br/>
+{%endfor%}
+</h2>
+
+<br/>
+<br/>
+<a href="/">Go back!!</a>
+
